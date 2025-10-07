@@ -1,5 +1,5 @@
 {
-  description = "Chiaroscuro - A Theme Manager for the Rhodium System";
+  description = "Chiaroscuro.rh | Theming Framework for the Rhodium System";
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
   };
