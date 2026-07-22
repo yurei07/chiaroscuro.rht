@@ -15,11 +15,12 @@ decoration {
   active_opacity = 1.0
   inactive_opacity = 0.85
   rounding = 12
+  shadow {
+    enabled = true
+    range = 20
+    color = rgba(${strip palette.zen0}cc)
+  }
+
 }
 
-shadow {
-  enabled = true
-  range = 20
-  color = rgba(${strip palette.zen0}cc)
-}
 ''
