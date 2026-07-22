@@ -26,6 +26,8 @@
           nvim = ports.nvim { colors = kansoColors; variant = "zen"; };
           zellij = ports.zellij { colors = kansoColors; variant = "zen"; };
           zathura = ports.zathura { colors = kansoColors; variant = "zen"; };
+          hyprland = ports.hyprland { colors = kansoColors; variant = "zen"; };
+          noctalia = ports.noctalia { colors = kansoColors; variant = "zen"; };
         };
         
         kanso-ink = {
@@ -37,6 +39,8 @@
           nvim = ports.nvim { colors = kansoColors; variant = "ink"; };
           zellij = ports.zellij { colors = kansoColors; variant = "ink"; };
           zathura = ports.zathura { colors = kansoColors; variant = "ink"; };
+          hyprland = ports.hyprland { colors = kansoColors; variant = "ink"; };
+          noctalia = ports.noctalia { colors = kansoColors; variant = "ink"; };
         };
         
         kanso-pearl = {
@@ -48,6 +52,8 @@
           nvim = ports.nvim { colors = kansoColors; variant = "pearl"; };
           zellij = ports.zellij { colors = kansoColors; variant = "pearl"; };
           zathura = ports.zathura { colors = kansoColors; variant = "pearl"; };
+          hyprland = ports.hyprland { colors = kansoColors; variant = "pearl"; };
+          noctalia = ports.noctalia { colors = kansoColors; variant = "pearl"; };
         };
       };
       
