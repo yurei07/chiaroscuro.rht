@@ -20,16 +20,15 @@
         kanso-zen = {
           palette = kansoColors.zen;
           kitty = ports.kitty { colors = kansoColors; variant = "zen"; };
+          hyprland = ports.hyprland { colors = kansoColors; variant = "zen"; };   
+          noctalia = ports.noctalia { colors = kansoColors; variant = "zen"; };  
           ghostty = ports.ghostty { colors = kansoColors; variant = "zen"; };
           yazi = ports.yazi { colors = kansoColors; variant = "zen"; };
           lualine = ports.lualine { colors = kansoColors; variant = "zen"; };
-          # nvim = ports.nvim { colors = kansoColors; variant = "zen"; };
+          #nvim = ports.nvim { colors = kansoColors; variant = "zen"; };
           zellij = ports.zellij { colors = kansoColors; variant = "zen"; };
           zathura = ports.zathura { colors = kansoColors; variant = "zen"; };
-          hyprland = ports.hyprland { colors = kansoColors; variant = "zen"; };
-          noctalia = ports.noctalia { colors = kansoColors; variant = "zen"; };
-        };
-        
+        };        
         kanso-ink = {
           palette = kansoColors.ink;
           kitty = ports.kitty { colors = kansoColors; variant = "ink"; };
@@ -39,8 +38,8 @@
           # nvim = ports.nvim { colors = kansoColors; variant = "ink"; };
           zellij = ports.zellij { colors = kansoColors; variant = "ink"; };
           zathura = ports.zathura { colors = kansoColors; variant = "ink"; };
-          hyprland = ports.hyprland { colors = kansoColors; variant = "ink"; };
-          noctalia = ports.noctalia { colors = kansoColors; variant = "ink"; };
+          # hyprland = ports.hyprland { colors = kansoColors; variant = "ink"; };
+          # noctalia = ports.noctalia { colors = kansoColors; variant = "ink"; };
         };
         
         kanso-pearl = {
@@ -52,8 +51,8 @@
           # nvim = ports.nvim { colors = kansoColors; variant = "pearl"; };
           zellij = ports.zellij { colors = kansoColors; variant = "pearl"; };
           zathura = ports.zathura { colors = kansoColors; variant = "pearl"; };
-          hyprland = ports.hyprland { colors = kansoColors; variant = "pearl"; };
-          noctalia = ports.noctalia { colors = kansoColors; variant = "pearl"; };
+          # hyprland = ports.hyprland { colors = kansoColors; variant = "pearl"; };
+          # noctalia = ports.noctalia { colors = kansoColors; variant = "pearl"; };
         };
       };
       
