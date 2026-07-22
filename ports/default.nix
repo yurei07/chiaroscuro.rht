@@ -8,7 +8,7 @@
   zathura = import ./zathura.nix { inherit lib; };
   zellij = import ./zellij.nix { inherit lib; };
   yazi = import ./yazi.nix { inherit lib; };
-  hyrland = import ./hyprland.nix { inherit lib; };
+  hyprland = import ./hyprland.nix { inherit lib; };
   noctalia = import ./noctalia.nix { inherit lib; };
 }
 
