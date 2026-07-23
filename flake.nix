@@ -29,6 +29,18 @@
           zellij = ports.zellij { colors = kansoColors; variant = "zen"; };
           zathura = ports.zathura { colors = kansoColors; variant = "zen"; };
         };        
+        kanso-kuro = {
+          palette = kansoColors.kuro;
+          kitty = ports.kitty { colors = kansoColors; variant = "kuro"; };
+          hyprland = ports.hyprland { colors = kansoColors; variant = "kuro"; };
+          noctalia = ports.noctalia { colors = kansoColors; variant = "kuro"; };
+          ghostty = ports.ghostty { colors = kansoColors; variant = "kuro"; };
+          yazi = ports.yazi { colors = kansoColors; variant = "kuro"; };
+          lualine = ports.lualine { colors = kansoColors; variant = "kuro"; };
+          # nvim = ports.nvim { colors = kansoColors; variant = "kuro"; };
+          zellij = ports.zellij { colors = kansoColors; variant = "kuro"; };
+          zathura = ports.zathura { colors = kansoColors; variant = "kuro"; };
+        };
         kanso-ink = {
           palette = kansoColors.ink;
           kitty = ports.kitty { colors = kansoColors; variant = "ink"; };
