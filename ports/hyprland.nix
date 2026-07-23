@@ -14,7 +14,7 @@ general {
 decoration {
   active_opacity = 1.0
   inactive_opacity = 0.85
-  rounding = 12
+  rounding = 0
   shadow {
     enabled = true
     range = 20
