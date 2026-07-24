@@ -6,23 +6,22 @@ let
 in
 builtins.toJSON {
   dark = {
-    mPrimary          = palette.springBlue;
-    mOnPrimary        = palette.zen0;
-    mSecondary        = palette.autumnGreen;
+    mPrimary          = palette.oldWhite;    
+    mOnPrimary        = palette.zen0;         
+    mSecondary        = palette.autumnGreen; 
     mOnSecondary      = palette.zen0;
-    mTertiary         = palette.carpYellow;
+    mTertiary         = palette.carpYellow;   
     mOnTertiary       = palette.zen0;
     mError            = palette.autumnRed;
     mOnError          = palette.fujiWhite;
     mSurface          = palette.zen0;
     mOnSurface        = palette.oldWhite;
     mSurfaceVariant   = palette.zen1;
-    mOnSurfaceVariant = palette.springBlue;
+    mOnSurfaceVariant = palette.katanaGray;   
     mOutline          = palette.zen3;
     mShadow           = "#000000";
     mHover            = palette.zen2;
     mOnHover          = palette.fujiWhite;
-
     terminal = {
       background  = palette.zen0;
       foreground  = palette.oldWhite;

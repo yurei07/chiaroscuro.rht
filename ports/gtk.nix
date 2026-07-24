@@ -29,9 +29,9 @@ let p = colors.${variant} or colors.zen; in
     @define-color card_fg_color ${p.oldWhite};
     @define-color dialog_bg_color ${p.zen1};
     @define-color popover_bg_color ${p.zen1};
-    @define-color accent_color ${p.springBlue};
-    @define-color accent_bg_color ${p.springBlue};
-    @define-color accent_fg_color ${p.zen0};
+    @define-color accent_color ${p.oldWhite};       
+    @define-color accent_bg_color ${p.oldWhite};    
+    @define-color accent_fg_color ${p.zen0};         
     @define-color destructive_color ${p.autumnRed};
     @define-color success_color ${p.autumnGreen};
     @define-color warning_color ${p.carpYellow};
