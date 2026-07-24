@@ -25,9 +25,11 @@
           ghostty = ports.ghostty { colors = kansoColors; variant = "zen"; };
           yazi = ports.yazi { colors = kansoColors; variant = "zen"; };
           lualine = ports.lualine { colors = kansoColors; variant = "zen"; };
-          #nvim = ports.nvim { colors = kansoColors; variant = "zen"; };
+          nvim = ports.nvim { colors = kansoColors; variant = "zen"; };
           zellij = ports.zellij { colors = kansoColors; variant = "zen"; };
           zathura = ports.zathura { colors = kansoColors; variant = "zen"; };
+          zen = ports.zen { colors = kansoColors; variant = "zen"; };
+          gtk = ports.gtk { colors = kansoColors; variant = "zen"; };
         };        
         kanso-kuro = {
           palette = kansoColors.kuro;
@@ -37,7 +39,7 @@
           ghostty = ports.ghostty { colors = kansoColors; variant = "kuro"; };
           yazi = ports.yazi { colors = kansoColors; variant = "kuro"; };
           lualine = ports.lualine { colors = kansoColors; variant = "kuro"; };
-          # nvim = ports.nvim { colors = kansoColors; variant = "kuro"; };
+          nvim = ports.nvim { colors = kansoColors; variant = "kuro"; };
           zellij = ports.zellij { colors = kansoColors; variant = "kuro"; };
           zathura = ports.zathura { colors = kansoColors; variant = "kuro"; };
         };
@@ -47,7 +49,7 @@
           ghostty = ports.ghostty { colors = kansoColors; variant = "ink"; };
           yazi = ports.yazi { colors = kansoColors; variant = "ink"; };
           lualine = ports.lualine { colors = kansoColors; variant = "ink"; };
-          # nvim = ports.nvim { colors = kansoColors; variant = "ink"; };
+          nvim = ports.nvim { colors = kansoColors; variant = "ink"; };
           zellij = ports.zellij { colors = kansoColors; variant = "ink"; };
           zathura = ports.zathura { colors = kansoColors; variant = "ink"; };
           hyprland = ports.hyprland { colors = kansoColors; variant = "ink"; };

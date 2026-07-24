@@ -10,5 +10,7 @@
   yazi = import ./yazi.nix { inherit lib; };
   hyprland = import ./hyprland.nix { inherit lib; };
   noctalia = import ./noctalia.nix { inherit lib; };
+  zen = import ./zen.nix {inherit lib; };
+  gtk = import ./gtk.nix {inherit lib; };
 }
 
